@@ -113,4 +113,3 @@ s = text(
     "CHUYENDI.MADX AND CHUYENDI.HTTTOAN = 'VIETCOMBANK' AND CHUYENDI.HTTTOAN = 'TIEN MAT' GROUP BY(KH.MAKH)")
 for row in conn.execute(s):
     print(row)
-
